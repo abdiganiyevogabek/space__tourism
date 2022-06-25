@@ -97,7 +97,6 @@ body {
     display: flex;
     justify-content: start;
     margin-left: 13%;
-    border: 1px solid red;
     h1 {
       text-transform: uppercase;
       color: #fff;
@@ -128,7 +127,7 @@ body {
 
   main {
     width: 74%;
-    margin: 6% auto;
+    margin: 5% auto;
     .main-header {
       display: flex;
       justify-content: end;

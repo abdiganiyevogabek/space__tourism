@@ -125,7 +125,6 @@ body .main-head {
       -ms-flex-pack: start;
           justify-content: start;
   margin-left: 13%;
-  border: 1px solid red;
 }
 
 body .main-head h1 {
@@ -159,7 +158,7 @@ body .main-head .number {
 
 body main {
   width: 74%;
-  margin: 6% auto;
+  margin: 5% auto;
 }
 
 body main .main-header {
