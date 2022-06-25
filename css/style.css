@@ -117,20 +117,22 @@ body header .toggle {
 }
 
 body .main-head {
-  width: 28%;
+  width: 85%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   margin-left: 13%;
+  border: 1px solid red;
 }
 
 body .main-head h1 {
   text-transform: uppercase;
   color: #fff;
   word-spacing: 8px;
+  margin-right: 5%;
 }
 
 body .main-head .number {
@@ -139,7 +141,6 @@ body .main-head .number {
 
 @media only screen and (max-width: 768px) {
   body .main-head {
-    width: 40%;
     margin-left: 5%;
   }
   body .main-head h1 {
@@ -149,11 +150,10 @@ body .main-head .number {
 
 @media only screen and (max-width: 375px) {
   body .main-head {
-    width: 76%;
     margin: 0 auto;
   }
   body .main-head h1 {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 

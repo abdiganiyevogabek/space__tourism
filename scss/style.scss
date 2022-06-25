@@ -93,14 +93,16 @@ body {
   }
 
   .main-head {
-    width: 28%;
+    width: 85%;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     margin-left: 13%;
+    border: 1px solid red;
     h1 {
       text-transform: uppercase;
       color: #fff;
       word-spacing: 8px;
+      margin-right: 5%;
     }
     .number {
       opacity: 0.6;
@@ -109,7 +111,6 @@ body {
 
   @media only screen and (max-width: 768px) {
     .main-head {
-      width: 40%;
       margin-left: 5%;
       h1 {
         font-size: 20px;
@@ -118,10 +119,9 @@ body {
   }
   @media only screen and (max-width: 375px) {
     .main-head {
-      width: 76%;
       margin: 0 auto;
       h1 {
-        font-size: 18px;
+        font-size: 17px;
       }
     }
   }
